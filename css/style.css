@@ -1,0 +1,47 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color:darkgoldenrod;
+  margin-bottom: 20px;
+}
+
+.estra_logo{
+  width: 100px;
+  height: 30px;
+  background-color: aquamarine;
+}
+
+.list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: darkorange;
+}
+
+.list_ietm{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.section1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_firstview{
+}
+
+.img_firseview_item{
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+.section_1_text_box{
+}
+
+.em1{
+  color: aqua;
+}
+
