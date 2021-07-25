@@ -179,9 +179,6 @@
   margin-bottom: 10px;
 }
 
-.service_content_item_text_1{
-}
-
 .service_content_item_img_1{
   width: 30%;
   display: block;
@@ -193,11 +190,8 @@
   font-size: 20px;
   margin-bottom: 10px;
   display: inline-block;
-  padding: 30px 0px;
+  padding: 20px 0px;
   margin bottom: 10px;
-}
-
-.service_content_item_text_2{
 }
 
 .service_content_item_img_2{
@@ -210,11 +204,8 @@
 .service_content_item_ttl_3{
   font-size: 20px;
   display: inline-block;
-  padding: 30px 0px;
+  padding: 20px 0px;
   margin-bottom: 10px;
-}
-
-.service_content_item_text_3{
 }
 
 .service_content_item_img_3{
@@ -247,4 +238,37 @@
   background-color: rgb(224, 174, 211);
   display: flex;
   justify-content: flex-start;
+}
+
+.section_5{
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+}
+
+.card_title{
+  height: auto;
+  width: 20%;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(194, 1, 143);
+  display: inline-block;
+  position: absolute;
+  border-radius: 10px 0 0 0;
+}
+
+.card{
+  width: 300px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.card_img_item{
+  width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
 }
