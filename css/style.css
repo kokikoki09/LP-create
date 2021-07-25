@@ -192,12 +192,12 @@
 .service_content_item_ttl_2{
   font-size: 20px;
   margin-bottom: 10px;
-  display: inline;
-  margin: auto;
+  display: inline-block;
+  padding: 30px 0px;
+  margin bottom: 10px;
 }
 
 .service_content_item_text_2{
-  display: inline;
 }
 
 .service_content_item_img_2{
@@ -209,8 +209,8 @@
 
 .service_content_item_ttl_3{
   font-size: 20px;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
+  padding: 30px 0px;
   margin-bottom: 10px;
 }
 
