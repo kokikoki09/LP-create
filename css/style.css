@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin: 50px 0px;
   padding-right: 30px;
 }
 
@@ -50,6 +50,7 @@
 .message1 {
   font-size: 50px;
   margin-bottom: 40px;
+  font-family: 'Architects Daughter';
 }
 
 .message2 {
@@ -75,6 +76,7 @@
 .section_2_ttl_complement {
   color: rgb(194, 1, 143);
   margin-bottom: 10px;
+  font-family: 'Architects Daughter';
 }
 
 .section_2_new_information {
@@ -111,6 +113,7 @@
   display: flex;
   justify-content: center;
   color: rgb(194, 1, 143);
+  font-family: 'Architects Daughter';
 }
 
 .section_3_ttl_title {
@@ -157,6 +160,7 @@
 .section_4_ttl_complement {
   padding-bottom: 20px;
   color: rgb(194, 1, 143);
+  font-family: 'Architects Daughter';
 }
 
 .section_4_ttl_title {
@@ -246,12 +250,13 @@
 }
 
 .section_5_ttl{
-
+  margin: 0px 0px 0px 80px;
 }
 
 .section_5_ttl_complement{
   padding-bottom: 20px;
   color: rgb(194, 1, 143);
+  font-family: 'Architects Daughter';
 }
 
 .section_5_ttl_title{
@@ -275,6 +280,8 @@
 .card_list{
   display: flex;
   justify-content: space-between;
+  padding: 20px 50px 0px 50px;
+  margin:20px;
 }
 
 .card{
@@ -284,7 +291,6 @@
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   position: relative;
-  margin-top: 50px;
 }
 
 .card_img_item{
@@ -309,4 +315,163 @@ display: inline-block;
 
 .text_3{
   display: inline-block;
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+}
+
+.list_btn{
+  width: 200px;
+  height: auto;
+  padding: 10px 0;
+  color: rgb(194, 1, 143);
+  border-radius: 30px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  display: inline-block;
+  border: solid 2px rgb(194, 1, 143);
+}
+
+.section_6{
+  margin:50px 0px;
+}
+
+.section_6_ttl{
+  margin-left: 25%;
+}
+
+.section_6_ttl_complement{
+  padding-bottom: 10px;
+  color: rgb(194, 1, 143);
+  font-family: 'Architects Daughter';
+}
+
+.section_6_ttl_title{
+  font-size: 20px;
+  color: rgb(68, 68, 68);
+  margin-bottom: 40px;
+}
+
+.table_content{
+  display: flex;
+  justify-content: center;
+}
+
+.table_content_list{
+  width: 50%;
+  border-collapse: collapse;
+  display: block;
+  margin:auto;
+}
+
+table th{
+  border: 1px solid #ccc;
+  padding: 10px 100px 10px 0px;
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+table td{
+  border: 1px solid #ccc;
+  padding: 10px 200px 10px 0px;
+}
+
+.section_7{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_7_item_1{
+  width: 50vw;
+  height: 50vh;
+  background-image: url(../img/recruit.png);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.section_7_item_1_text{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 20px;
+  color: #fff;
+}
+
+.section_7_item_2{
+  height: 50vh;
+  width: 50vw;
+  background-image: url(../img/interview.png);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.section_7_item_2_text{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 20px;
+  color: #fff;
+}
+
+.section_8{
+}
+
+.section_8_text{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.section_8_bar{
+  width: 3px;
+  height: 50px;
+  background-color: #c2018f;
+  margin: auto 50%;
+}
+
+.section_8_mail_btn{
+  position: relative;
+  background-color: #c2018f;
+  width: 200px;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0px 10px 5px #7e0067;
+  margin: 20px auto;
+  background: linear-gradient(90deg,#ce43b5,#c2018f);
+}
+
+.section_8_mail_btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(-170px, -50%);
+}
+
+.Copyright{
+  width:auto;
+  height: auto;
+  background-color:gainsboro ;
+  color: rgb(145, 145, 145);
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+  padding: 30px 0px;
+  margin-bottom: 50px;
 }
